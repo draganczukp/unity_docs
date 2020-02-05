@@ -24,11 +24,13 @@ P(x, y, z) = P(r*\cos\alpha*\cos\beta, r*\sin\alpha, r*\cos\alpha\sin\beta)$$
 
 \subsection{Operacje na punktach}
 \subsubsection{Skalowanie}
+
 $$
 p = (x,y,z,1)\ \text{Punkt 3d}\\
 s = [sx, sy, sz]\ \text{wektor skali}\\
-p' = (x * sx, y * sy, z*sz)\ \text{Punkt przeskalowany}\\
+p' = (x * sx, y * sy, z*sz)\ \text{Punkt przeskalowany}
 $$
+
 Macierze:
 $$
 [x', y', z', 1] = [x, y, z, 1]
@@ -41,8 +43,8 @@ sx & 0 & 0 & 0\\
 $$
 
 \subsubsection{Obroty}
-#### Wokół X
-Obrót o kąt $\alpha$
+Wokół X:
+
 $$
 p' = (x,\\
  y* \cos\alpha - z * \sin\alpha,\\
@@ -59,7 +61,7 @@ $$
 \end{bmatrix}
 $$
 
-#### Wokół Y
+Wokół Y
 $$
 p' = (z\sin\alpha + x\cos\alpha\\
 y\\
@@ -76,7 +78,7 @@ $$
 \end{bmatrix}
 $$
 
-#### Wokół Z
+Wokół Z
 $$
 p' = (x\cos\alpha - y\sin\alpha,\\
 x\sin\alpha + y\cos\alpha,\\
@@ -94,14 +96,14 @@ $$
 $$
 
 \section{Atrybuty}
-```c#
+\begin{lstlisting}
 [Attribute(Params)]
 public class Class {}
-```
+\end{lstlisting}
 \subsection{Na klasę}
-- `AddComponentMenu("menu/name")`
+- \verb`AddComponentMenu("menu/name")`
 \subsection{Na pole}
-- `Range(float from, float to)`
+- \verb`Range(float from, float to)`
 
 
 \end{document}
