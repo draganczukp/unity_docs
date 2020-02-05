@@ -135,6 +135,8 @@ INPUT C:\Users\draga\scoop\apps\latex\current\texmfs\install\tex\latex\amsmath\a
 INPUT C:\Users\draga\scoop\apps\latex\current\texmfs\install\tex\latex\amsmath\amsopn.sty
 INPUT C:\Users\draga\scoop\apps\latex\current\texmfs\install\tex\latex\listings\lstlang1.sty
 INPUT C:\Users\draga\scoop\apps\latex\current\texmfs\install\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\draga\scoop\apps\latex\current\texmfs\install\tex\latex\listings\lstmisc.sty
+INPUT C:\Users\draga\scoop\apps\latex\current\texmfs\install\tex\latex\listings\lstmisc.sty
 INPUT x:\studia\unity_docs\main.aux
 INPUT x:\studia\unity_docs\main.aux
 OUTPUT x:\studia\unity_docs\main.aux

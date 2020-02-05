@@ -126,13 +126,116 @@ public class Class {}
 
 \subsection{Callbacki}
 \begin{lstlisting}
-Start()
-Update()
-FixedUpdate()
-LateUpdate()
-OnGUI()
-OnDisable()
-OnEnable()
+Awake() 
+Start() 
+Update() 
+FixedUpdate() 
+LateUpdate() 
+OnGUI() 
+On{Collision|Trigger}{Enter|Exit|Stay}{|2D}()
+OnMouse{Down|Up|Drag|UpAsButton}()
+OnMouse{Ender|Exit|Over}()
+OnDrawGizmos()
+\end{lstlisting}
+
+\subsection{Zmienne/pola}
+\begin{itemize}
+    \item animation
+    \item audio
+    \item camera
+    \item collider
+    \item rigidbody
+    \item transform
+\end{itemize}
+
+\subsection{Metody}
+\begin{lstlisting}
+GetComponent<T>()
+GetComponent{|s}In{Children|Parent}<T>()
+SendMessage("Method", param)
+AddComponent()
+SetActive(bool)
+Find("name")
+FindGameObjectsWithTag("tag")
+FindWithTag("tag")
+Instantiate(GameObject[, Vector3 pos, Quaternion rot])
 
 \end{lstlisting}
+
+\section{Klasa Input}
+\subsection{Pola}
+\begin{itemize}
+    \item acceleration 
+    \item anyKey
+    \item anyKeyDown
+    \item compass
+    \item gyro
+    \item location
+    \item mousePosition
+    \item mousePresent
+    \item mouseScrollDelta
+    \item touchCount
+    \item touches
+\end{itemize}
+
+\subsection{Metody}
+\begin{lstlisting}
+GetAxis{|Raw}("Axis")
+GetButton{|Down|Up}(button)
+GetKey{|Down|Up}(key)
+GetMouseButton{|Up|Down}(button)
+\end{lstlisting}
+
+\section{Klasa Screen}
+\subsection{Zmienne statyczne}
+\begin{lstlisting}
+currentResolution
+dpi
+fullScreen
+height
+width
+lockCursor
+orientation
+resolutions
+showCursor
+\end{lstlisting}
+
+\subsection{Metody}
+\begin{lstlisting}
+SetResolution(w, h, fullScreen, refereshRate)
+\end{lstlisting}
+
+\section{Gizmos}
+\subsection{Pola}
+\begin{itemize}
+    \item color
+    \item exposure
+    \item matrix
+\end{itemize}
+
+\subsection{Metody}
+\begin{lstlisting}
+Draw{|Wire}Cube(Vector3 pos, Vector3 size)
+DrawGUITexture(Rect, Texture, Material?)
+DrawIcon(Vector3 pos, "name", allowScaling?)
+DrawLine(Vector3 from, to)
+Draw{|Wire}Mesh(Mesh, Vector3 pos, Quaternion rot, Vector3 scale)
+DrawRay({Ray | Vector3 from, dir})
+Draw{|Wire}Sphere(Vector3 center, float r)
+\end{lstlisting}
+
+\section{Korutyny}
+\begin{lstlisting}
+IEnumerator Name(...params)
+{
+    // Long code
+    yield return {result};
+}
+
+void Start()
+{
+    StartCoroutine(Name(params));
+}
+\end{lstlisting}
+
 \end{document}
