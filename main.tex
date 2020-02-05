@@ -95,15 +95,44 @@ $$
 \end{bmatrix}
 $$
 
+\newpage
 \section{Atrybuty}
 \begin{lstlisting}
 [Attribute(Params)]
 public class Class {}
 \end{lstlisting}
 \subsection{Na klasę}
-- \verb`AddComponentMenu("menu/name")`
+
+\begin{itemize}
+    \item \verb`AddComponentMenu("menu/name")`
+    \item \verb`DisallowMultipleComponents`
+    \item \verb`RequireComponent(typeof({Komponent}))`
+    \item \verb`ExecuteInEditMode`
+    \item \verb`ContextMenu`
+\end{itemize}
+
 \subsection{Na pole}
-- \verb`Range(float from, float to)`
+\begin{itemize}
+    \item \verb`Range(float from, float to)`
+    \item \verb`HideInInspector`
+    \item \verb`Multiline(int)`
+    \item \verb`TextArea`
+    \item \verb`Space(int)` - odstep między elementami
+    \item \verb`Header("naglowek")`s
+    \item \verb`Tooltip("tooltip")`
+\end{itemize}
 
+\section{MonoBehaviour}
 
+\subsection{Callbacki}
+\begin{lstlisting}
+Start()
+Update()
+FixedUpdate()
+LateUpdate()
+OnGUI()
+OnDisable()
+OnEnable()
+
+\end{lstlisting}
 \end{document}

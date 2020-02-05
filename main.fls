@@ -195,6 +195,8 @@ INPUT C:\Users\draga\scoop\apps\latex\current\texmfs\install\fonts\tfm\public\pl
 INPUT C:\Users\draga\scoop\apps\latex\current\texmfs\install\tex\latex\polski\ot4cmtt.fd
 INPUT C:\Users\draga\scoop\apps\latex\current\texmfs\install\tex\latex\polski\ot4cmtt.fd
 INPUT C:\Users\draga\scoop\apps\latex\current\texmfs\install\fonts\tfm\public\pl\pltt10.tfm
+INPUT C:\Users\draga\scoop\apps\latex\current\texmfs\install\tex\latex\base\omscmr.fd
+INPUT C:\Users\draga\scoop\apps\latex\current\texmfs\install\tex\latex\base\omscmr.fd
 INPUT x:\studia\unity_docs\main.aux
 INPUT x:\studia\unity_docs\main.out
 INPUT x:\studia\unity_docs\main.out
@@ -204,6 +206,8 @@ INPUT C:\Users\draga\scoop\apps\latex\current\texmfs\install\fonts\enc\dvips\pl\
 INPUT C:\Users\draga\scoop\apps\latex\current\texmfs\install\fonts\enc\dvips\pl\plms.enc
 INPUT C:\Users\draga\scoop\apps\latex\current\texmfs\install\fonts\enc\dvips\pl\plmi.enc
 INPUT C:\Users\draga\scoop\apps\latex\current\texmfs\install\fonts\enc\dvips\pl\plrm.enc
+INPUT C:\Users\draga\scoop\apps\latex\current\texmfs\install\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\draga\scoop\apps\latex\current\texmfs\install\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\draga\scoop\apps\latex\current\texmfs\install\fonts\type1\public\pl\plbx10.pfb
 INPUT C:\Users\draga\scoop\apps\latex\current\texmfs\install\fonts\type1\public\pl\plbx10.pfb
 INPUT C:\Users\draga\scoop\apps\latex\current\texmfs\install\fonts\type1\public\pl\plbx12.pfb
