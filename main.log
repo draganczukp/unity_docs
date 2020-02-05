@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.21)  5 FEB 2020 17:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.21)  5 FEB 2020 18:28
 entering extended mode
 **x:/studia/unity_docs/main.tex
 (x:/studia/unity_docs/main.tex
@@ -554,29 +554,29 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 107.
- [3] [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 241.
- [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 241.
+ [3] [4] [5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 272.
+ [6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 272.
  (x:/studia/unity_docs\main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 241.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 241.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 272.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 272.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: BBFD8ED1D831BFFD8A3A70149A40AD2A;1437.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 241.
+(rerunfilecheck)             Checksum: CB254E49F3FB00D8E89A69836B50C98D;1658.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 272.
  ) 
 Here is how much of TeX's memory you used:
- 10297 strings out of 492450
- 152358 string characters out of 3117217
- 491028 words of memory out of 3000000
- 14370 multiletter control sequences out of 15000+200000
+ 10369 strings out of 492450
+ 153294 string characters out of 3117217
+ 518028 words of memory out of 3000000
+ 14427 multiletter control sequences out of 15000+200000
  11358 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,7n,60p,300b,1131s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,7n,60p,300b,1802s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/draga/scoop/apps/latex/current/texmfs/install/fonts/enc/dvips/pl/pltt.enc}{C:/Users/draga/scoop/apps/latex/current/texmfs/install/fonts/enc/dvips/pl/plsc.enc}{C:/Users/draga/scoop/apps/latex/current/texmfs/install/fonts/enc/dvips/pl/plme.enc}{C:/Users/draga/scoop/apps/latex/current/texmfs/install/fonts/enc/dvips/pl/plms.enc}{C:/Users/draga/scoop/apps/latex/current/texmfs/install/fonts/enc/dvips/pl/plmi.enc}{C:/Users/draga/scoop/apps/latex/current/texmfs/install/fonts/enc/dvips/pl/plrm.enc}<C:/Users/draga/scoop/apps/latex/current/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/draga/scoop/apps/latex/current/texmfs/install/fonts/type1/public/pl/plbx10.pfb><C:/Users/draga/scoop/apps/latex/current/texmfs/install/fonts/type1/public/pl/plbx12.pfb><C:/Users/draga/scoop/apps/latex/current/texmfs/install/fonts/type1/public/pl/plex10.pfb><C:/Users/draga/scoop/apps/latex/current/texmfs/install/fonts/type1/public/pl/plmi10.pfb><C:/Users/draga/scoop/apps/latex/current/texmfs/install/fonts/type1/public/pl/plr10.pfb><C:/Users/draga/scoop/apps/latex/current/texmfs/install/fonts/type1/public/pl/plr5.pfb><C:/Users/draga/scoop/apps/latex/current/texmfs/install/fonts/type1/public/pl/plsy10.pfb><C:/Users/draga/scoop/apps/latex/current/texmfs/install/fonts/type1/public/pl/plsy7.pfb><C:/Users/draga/scoop/apps/latex/current/texmfs/install/fonts/type1/public/pl/pltt10.pfb>
-Output written on x:/studia\unity_docs\main.pdf (5 pages, 112443 bytes).
+Output written on x:/studia\unity_docs\main.pdf (6 pages, 122104 bytes).
 PDF statistics:
- 279 PDF objects out of 1000 (max. 8388607)
- 92 named destinations out of 1000 (max. 500000)
- 201 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 315 PDF objects out of 1000 (max. 8388607)
+ 107 named destinations out of 1000 (max. 500000)
+ 233 words of extra memory for PDF output out of 10000 (max. 10000000)
 

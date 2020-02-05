@@ -238,4 +238,35 @@ void Start()
 }
 \end{lstlisting}
 
+\section{GUI}
+\subsection{Legacy GUI System}
+\subsubsection{Kontrolki GUI.*}
+\begin{lstlisting}
+BeginScrollView(Rect pos, Vector2 scrollPos, Rect view)
+EndScrollView()
+Box(Rect rect, {"text"|Texture|GUIContent}, GUIStyle?)
+{|Repeat}Button(Rect, {"text"|Texture|GUIContent}, GUIStyle?)
+DrawTexture(Rect, Texture[, ScaleMode[, bool alphaBlend[, float imageAspectRatio]]])
+Label(Rect, {"text", Texture, GUIContent}, GUIStyle?)
+PasswordField(Rect, string currentInput, char mask ('*'), maxLen?, GUIStyle?)
+Text{Field|Area}(Rect, currentInput, maxLen?, GUIStyle?)
+Toggle(Rect, currentVal, {"text"|Texture|GUIContent}, GUIStyle?)
+\end{lstlisting}
+
+\section{Mesh}
+Sposoby opisu
+\begin{itemize}
+    \item Vertex-Vertex (wierzchołek, poz, połączenia)
+    \item Face-Vertex (ściana, wierzchołki), (wierzchołek, poz, ściana)
+    \item Winged-Edge (ściana, krawędzie), (krawędź, wierzchołki, ściany, krawędzie), (wierzchołek, poz, krawędzie)
+\end{itemize}
+
+Formaty:
+\begin{itemize}
+    \item fbx
+    \item DrawTexture3ds
+    \item dxf
+    \item obj
+    \item blend
+\end{itemize}
 \end{document}
